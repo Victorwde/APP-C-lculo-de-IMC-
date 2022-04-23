@@ -1,0 +1,21 @@
+<ion-card class="sec">
+  <div class="input">
+    <ion-label>Altura:</ion-label>
+    <ion-input type="number" [(ngModel)]="altura"></ion-input>
+  </div>
+  <div class="input">
+    <ion-label>Peso:</ion-label>
+    <ion-input type="number" [(ngModel)]="peso"></ion-input>
+  </div>
+  <div class="input">
+    <ion-button type="button" color="success" (click)="calcularImc()">CALCULAR IMC</ion-button>
+  </div>
+  <div class="input">
+    <p>A sua condição é: {{ calcularImc() }}</p>
+  </div>
+</ion-card>
+
+
+
+
+

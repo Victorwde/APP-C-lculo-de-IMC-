@@ -1,0 +1,22 @@
+
+.sec {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  --ion-background-color: #252A34;
+}
+.sec input{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  --ion-background-color: #CBD0F7;
+}
+.sec input {
+  margin-top: 10px;
+  border: none;
+  height: 45px;
+  outline: none;
+  border-radius: 8px;
+}
